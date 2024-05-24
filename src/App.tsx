@@ -17,6 +17,9 @@ function App() {
       </div>
       <div className="mt-8">
         <ResultRow />
+        <ResultRow />
+        <ResultRow />
+        <ResultRow loading={true} />
       </div>
     </main>
   );
